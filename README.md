@@ -1,9 +1,9 @@
 JPushDemo
 =========
 
-Demostrate the use of the remote push API of JPush in C
+Demonstrate the use of the remote push API of JPush in C
 
-Please make sure that you have libcurl and openssl library on your system
+Please make sure that you have libcurl and openssl library install on your system
 
 For libcurl, please go to http://curl.haxx.se/libcurl/
 For openssl library, please go to http://openssl.org
