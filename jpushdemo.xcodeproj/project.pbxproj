@@ -1,0 +1,228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF7639B16B0FB9D0005EC08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CAF7639A16B0FB9D0005EC08 /* main.c */; };
+		CAF7639D16B0FB9D0005EC08 /* jpushdemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAF7639C16B0FB9D0005EC08 /* jpushdemo.1 */; };
+		CAF763A416B0FC7F0005EC08 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF763A316B0FC7F0005EC08 /* libssl.dylib */; };
+		CAF763A616B0FC870005EC08 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF763A516B0FC870005EC08 /* libcurl.dylib */; };
+		CAF763B516B281A70005EC08 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF763B416B281A70005EC08 /* libcrypto.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAF7639416B0FB9D0005EC08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CAF7639D16B0FB9D0005EC08 /* jpushdemo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAF7639616B0FB9D0005EC08 /* jpushdemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jpushdemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF7639A16B0FB9D0005EC08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CAF7639C16B0FB9D0005EC08 /* jpushdemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = jpushdemo.1; sourceTree = "<group>"; };
+		CAF763A316B0FC7F0005EC08 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		CAF763A516B0FC870005EC08 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		CAF763B416B281A70005EC08 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF7639316B0FB9D0005EC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF763B516B281A70005EC08 /* libcrypto.dylib in Frameworks */,
+				CAF763A616B0FC870005EC08 /* libcurl.dylib in Frameworks */,
+				CAF763A416B0FC7F0005EC08 /* libssl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF7638B16B0FB9C0005EC08 = {
+			isa = PBXGroup;
+			children = (
+				CAF763B416B281A70005EC08 /* libcrypto.dylib */,
+				CAF763A516B0FC870005EC08 /* libcurl.dylib */,
+				CAF763A316B0FC7F0005EC08 /* libssl.dylib */,
+				CAF7639916B0FB9D0005EC08 /* jpushdemo */,
+				CAF7639716B0FB9D0005EC08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF7639716B0FB9D0005EC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF7639616B0FB9D0005EC08 /* jpushdemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF7639916B0FB9D0005EC08 /* jpushdemo */ = {
+			isa = PBXGroup;
+			children = (
+				CAF7639A16B0FB9D0005EC08 /* main.c */,
+				CAF7639C16B0FB9D0005EC08 /* jpushdemo.1 */,
+			);
+			path = jpushdemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF7639516B0FB9D0005EC08 /* jpushdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF763A016B0FB9D0005EC08 /* Build configuration list for PBXNativeTarget "jpushdemo" */;
+			buildPhases = (
+				CAF7639216B0FB9D0005EC08 /* Sources */,
+				CAF7639316B0FB9D0005EC08 /* Frameworks */,
+				CAF7639416B0FB9D0005EC08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jpushdemo;
+			productName = jpushdemo;
+			productReference = CAF7639616B0FB9D0005EC08 /* jpushdemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF7638D16B0FB9C0005EC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xu Jiajun";
+			};
+			buildConfigurationList = CAF7639016B0FB9C0005EC08 /* Build configuration list for PBXProject "jpushdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAF7638B16B0FB9C0005EC08;
+			productRefGroup = CAF7639716B0FB9D0005EC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF7639516B0FB9D0005EC08 /* jpushdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF7639216B0FB9D0005EC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF7639B16B0FB9D0005EC08 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAF7639E16B0FB9D0005EC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAF7639F16B0FB9D0005EC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAF763A116B0FB9D0005EC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAF763A216B0FB9D0005EC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF7639016B0FB9C0005EC08 /* Build configuration list for PBXProject "jpushdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF7639E16B0FB9D0005EC08 /* Debug */,
+				CAF7639F16B0FB9D0005EC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF763A016B0FB9D0005EC08 /* Build configuration list for PBXNativeTarget "jpushdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF763A116B0FB9D0005EC08 /* Debug */,
+				CAF763A216B0FB9D0005EC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF7638D16B0FB9C0005EC08 /* Project object */;
+}
